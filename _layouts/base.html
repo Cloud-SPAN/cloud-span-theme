@@ -34,10 +34,6 @@
   {% if page.title %}{{ page.title }}{% endif %}{% if page.title and site.title %} &ndash; {% endif %}{% if site.title %}{{ site.title }}{% endif %}
   </title>
 
-	<script type="application/ld+json">
-         {{ page.bioschemas | jsonify }}
-      	</script>
-
   </head>
   <body>
     {% include life_cycle.html %}
